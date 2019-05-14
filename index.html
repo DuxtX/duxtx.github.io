@@ -20,7 +20,7 @@
     <link rel="alternative" href="/atom.xml" title="Yuhao&#39;s blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/assets/img/favicon.ico">
+    <link rel="icon" href="/favicon.png">
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -71,20 +71,18 @@ ga('send', 'pageview');
 			
 				<li><a href="/">Homepage</a></li>
 	        
-				<li><a href="/Gallery/">Gallery</a></li>
+				<li><a href="/tags/Gallery/">Gallery</a></li>
 	        
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
     		
     			
-    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">Articles</a>
+    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">All Articles</a>
     			
             
     			
-            
-    			
-    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">About me</a>
+    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">About Me</a>
     			
             
 		</nav>
@@ -93,9 +91,11 @@ ga('send', 'pageview');
 				
 					<a class="github" target="_blank" href="https://github.com/DuxtX" title="github"><i class="icon-github"></i></a>
 		        
-					<a class="rss" target="_blank" href="/atom.xml" title="rss"><i class="icon-rss"></i></a>
+					<a class="weibo" target="_blank" href="https://www.weibo.com/harveyj" title="weibo"><i class="icon-weibo"></i></a>
 		        
 					<a class="mail" target="_blank" href="mailto: harveyjyh@gmail.com" title="mail"><i class="icon-mail"></i></a>
+		        
+					<a class="linkedin" target="_blank" href="https://www.linkedin.com/in/yuhaojiang/" title="linkedin"><i class="icon-linkedin"></i></a>
 		        
 			</div>
 		</nav>
@@ -134,9 +134,11 @@ ga('send', 'pageview');
 					
 						<a class="github" target="_blank" href="https://github.com/DuxtX" title="github"><i class="icon-github"></i></a>
 			        
-						<a class="rss" target="_blank" href="/atom.xml" title="rss"><i class="icon-rss"></i></a>
+						<a class="weibo" target="_blank" href="https://www.weibo.com/harveyj" title="weibo"><i class="icon-weibo"></i></a>
 			        
 						<a class="mail" target="_blank" href="mailto: harveyjyh@gmail.com" title="mail"><i class="icon-mail"></i></a>
+			        
+						<a class="linkedin" target="_blank" href="https://www.linkedin.com/in/yuhaojiang/" title="linkedin"><i class="icon-linkedin"></i></a>
 			        
 				</div>
 			</nav>
@@ -147,7 +149,7 @@ ga('send', 'pageview');
 				
 					<li style="width: 50%"><a href="/">Homepage</a></li>
 		        
-					<li style="width: 50%"><a href="/Gallery/">Gallery</a></li>
+					<li style="width: 50%"><a href="/tags/Gallery/">Gallery</a></li>
 		        
 				</ul>
 			</nav>
@@ -197,7 +199,7 @@ ga('send', 'pageview');
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/13/hello-world/">Show all >></a>
+          <a class="article-more-a" href="/2019/05/13/hello-world/">Unfold >></a>
         </p>
       
 
@@ -254,7 +256,7 @@ ga('send', 'pageview');
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
-		open_in_new: true,
+		open_in_new: false,
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
@@ -278,8 +280,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
     
       
-    
-      
       
       
     
@@ -289,13 +289,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">Articles</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">All Articles</a></li>
       
         
       
-        
-      
-      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">About me</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">About Me</a></li>
       
         
     </ul>
